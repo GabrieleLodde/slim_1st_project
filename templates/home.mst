@@ -1,0 +1,16 @@
+<body style='background-color:blue;'>
+<h1 style='color:pink;font-size:50px';>Ciao, {{planet}}!</h1>
+<h1 style='color:yellow;font-size:50px';> te tu ti chiami {{author}} </h1>
+{{#alunni.0}}
+<ul>
+{{#alunni}}
+    <li>
+    {{.}}
+    </li>
+{{/alunni}}
+</ul>
+{{/alunni.0}}
+{{#script}}
+<script>{{{script}}}</script>
+{{/script}}
+</body>
